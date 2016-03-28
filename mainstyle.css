@@ -1,0 +1,10 @@
+@charset "utf-8";
+h1  {
+	font-style: italic;
+
+}
+body {
+	text-align: center;
+	color: #F10D11;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif
+}
