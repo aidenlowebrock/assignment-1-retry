@@ -2,10 +2,39 @@
 h1  {
 	font-style: italic;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif78i;
-	
+	font-color: #FF0000
 }
 body {
 	text-align: center;
-	color: #F10D11;
-	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif
+	color: #000000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif
+}
+#header ul {
+
+	margin: 0px;
+	padding: 0px;
+	background-color: #F1373A;
+}
+#header li {
+	list-style: none;
+	display: inline;
+}
+#header ul li a {
+	height: 20px;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	border-left: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-bottom: #999999 1px solid;
+	color: #333333;
+	text-decoration: none;
+	font-size: 14px;
+}
+#header ul li a:hover {
+	color: #333333;
+	background-color: #97bfff;
+}
+#header ul li a:active {
+	color: #000000;
+	background-color: #FF9900;
 }
