@@ -2,17 +2,24 @@
 h1  {
 	font-style: italic;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif78i;
-	font-color: #FF0000
+	font-color: #FF0004;
+	font-size: 125px;
+	color: #FF0308;
 }
 body {
 	text-align: center;
+	margin-top: 0px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 0px;
 	color: #000000;
+	background-color:#757575;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif
 }
 #header ul {
 
-	margin: 0px;
-	padding: 0px;
+	margin: 25px;
+	padding: 25px;
 	background-color: #F1373A;
 }
 #header li {
@@ -26,6 +33,7 @@ body {
 	border-left: #999999 1px solid;
 	border-top: #999999 1px solid;
 	border-bottom: #999999 1px solid;
+	border-right: #999999 1px solid;
 	color: #333333;
 	text-decoration: none;
 	font-size: 14px;
@@ -39,4 +47,8 @@ body {
 	background-color: #FF9900;
 }
 .header-cont{
-	
+	background-image:url(images/banner.png);		
+}
+.body-cont{
+	background-color:#0093FF;
+}
